@@ -4,35 +4,63 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 
-}
  /* azeret-mono */
+/* nav */
+nav {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.nav-title{
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px; }
+
+    .btn-resume {
+        color: rgb(73, 73, 73);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid rgb(13, 19, 33);
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+    } 
+
+    nav ul li {
+        list-style: none;
+        width: 220px;
+        height: 55px;
+    }
 
 /* banner section style here */
 
 .banner-container{
-    max-width: 1440px;
-    border: 2px solid red;
-    min-height: 652px;
-    margin: 0 auto;
-    margin-top: 20px;
+    
     background-image: url('/assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
+    background-size: cover;
+    border: 2px solid red;
+
 }
 /* Group */
-.Group{
-    margin-bottom: 2px;
+.Group-img {
+    display: flex;
+    justify-content: center;
+    width: 234px;
+    height: 230px;
+    margin: 0 auto;
 }
+
 
 /* banner-content */
 
@@ -62,21 +90,38 @@ align-items: ;
 }
 
 .banner-content-btn{
-    display: inline;
+    
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
+    background: rgb(13, 19, 33);
+    text-align: center;
+    padding: 10px;
+    }
 
-    /* background: rgb(13, 19, 33); */
-    width: 208px;
-height: 66px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 21px 24px 21px 24px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 32px 0px;
-text-size-adjust: 40px;
-}
+    div a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 280px;     
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    .web-development {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin: 0;
+    }
+
+
+
 
