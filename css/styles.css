@@ -1,0 +1,208 @@
+/* font style */
+.azeret-mono-normal{
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* share area */
+.btn_primary {
+    padding: 17px 24px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+}
+.section_description {
+    font-size: 16px;
+    color: #0D1321;
+}
+.text_center {
+    text-align: center;
+}
+.btn_primary_2 {
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.section_title {
+    font-size: 32px;
+    font-weight: 800;
+}
+.section_description {
+    font-size: 16px;
+}
+
+.target_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.learn_more {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+/* navber title */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 50px 150px;
+}
+
+.nav_title {
+    font-size: 28px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1);
+}
+
+/* banner style */
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.banner_content {
+    padding: 35px 220px;
+}
+
+.banner_title {
+    font-size: 68px;
+    font-weight: 800;
+}
+.banner_img {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+}
+
+/* Web Development  style */
+
+.web_dev {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+.web_dev_container {
+    margin-top: 48px;
+}
+.web_dev_content {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 32px;
+}
+.web_dev_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.web_dev_btn {
+    padding: 12px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+}
+
+/* curent target */
+.curent_target {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.curent_target_container {
+    display: flex;
+    gap: 24px;
+}
+.curent_target_content_html {
+    padding: 40px 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.curent_target_content_css {
+    padding: 40px 40px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.curent_target_content_js {
+    padding: 40px 40px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* next target */
+.next_target_container {
+    margin-top: 48px;
+}
+.next_target {
+    width: 1140px;
+    margin: 0px auto;
+    margin-top: 110px;
+}
+
+.next_target_content {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding: 40px 40px;
+    align-items: center;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 16px;
+}
+/* support section styles */
+.support {
+    width: 1140px;
+    margin: 0px auto;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 64px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.support_text_color {
+    color: white;
+}
+
+.support input[type="text"] {
+    padding: 20px 220px 20px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    border: none;
+}
+.support input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+.submit_area {
+    margin-top: 24px;
+}
+
+/* footer area styles */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    padding: 0px 150px;
+
+}
+footer h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_img_1 {
+    margin-right: 24px;
+}
